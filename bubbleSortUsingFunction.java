@@ -16,7 +16,7 @@ class BubbleSort {
     }
 
     /* Prints the array */
-    void printArray(int arr[]) {
+    void printArray(int arr[]) {// time complexixity O(n^2)
         int n = arr.length;
         for (int i = 0; i < n; ++i)
             System.out.print(arr[i] + " ");
